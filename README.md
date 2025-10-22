@@ -1,10 +1,10 @@
 # README for Numbers Script
 
 ## Author Information
-- **Name:** [Your Full Name]  
-- **Course:** [Course Number and Name]  
+- **Name:** Avery Williams  
+- **Course:** CENG298
 - **Assignment:** Numbers Script (Odd/Even Classification)  
-- **Date:** [Date of Completion]  
+- **Date:** 10/22/25  
 
 ## Program Description
 This script prompts the user to enter a positive integer and then prints all integers from **1** up to and including that number. Each number is labeled as **“Odd”** or **“Even.”**  
@@ -76,10 +76,11 @@ You should also verify:
 | 7 | 1 Odd  2 Even  3 Odd  4 Even  5 Odd  6 Even  7 Odd |
 
 ## Challenges and Solutions
-[Optional: Describe any challenges you encountered while creating this script and how you solved them. This could include debugging issues, understanding regular expressions, or Git workflow problems.]
+No problems were encountered when creating this script besides trying to figure out how to make, when the input is 10 or over, be printed with even odd regularly (See Resources)
 
 ## Resources
-[List any resources you used (class slides, ChatGPT, etc.). Please refer to the course syllabus for more details on citations.]
+- https://www.shell-tips.com/bash/seq-brace-expansion/#gsc.tab=0 - Sequence in the script
+- ChatGPT - I couldn't figure out how to make the even and odd numbers output to to their respective spots without creating new lines, and -n by itself wasn't working, and nothing online when I googled didn't work either. (| tr '\n' ' ')
 
 ## License
 This project is part of coursework for Chapman University and is intended for educational purposes.
